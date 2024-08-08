@@ -1,4 +1,5 @@
 export interface ICipher {
   password: string;
-  message: string;
+  encodeMessage: string;
+  decodeMessage: string;
 }
