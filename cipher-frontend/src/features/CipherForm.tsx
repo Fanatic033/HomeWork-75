@@ -1,5 +1,5 @@
 import {Button, Grid, TextField} from '@mui/material';
-import {useState} from 'react';
+import React, {useState} from 'react';
 import {ICipher} from '../types.ts';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
@@ -68,7 +68,7 @@ const CipherForm = () => {
             onChange={inputChangeHandler}
           />
         </Grid>
-        <Grid item className='form-grid'>
+        <Grid item className="form-grid">
           <TextField
             required
             multiline
